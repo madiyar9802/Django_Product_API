@@ -85,13 +85,13 @@ python manage.py test
 Вот пример запроса к API для получения списка продуктов:
 
 ```bash
-curl -X GET http://localhost:8000/products/
+curl -X GET http://localhost:8000/api/products/
 ```
 
 Или с использованием фильтрации по городу:
 
 ```bash
-curl -X GET http://localhost:8000/products/ -H "City: <City_ID>"
+curl -X GET http://localhost:8000/api/products/ -H "City: <City_ID>"
 ```
 
 ---
